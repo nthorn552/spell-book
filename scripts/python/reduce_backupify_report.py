@@ -4,9 +4,9 @@ from datetime import datetime
 
 
 class Snapshot:
-    siteName = str
-    timestamp = datetime
-    isSuccess = bool
+    siteName: str
+    timestamp: datetime
+    isSuccess: bool
 
     def __init__(self, dattoSnapshotObject):
         self.isSuccess = False
