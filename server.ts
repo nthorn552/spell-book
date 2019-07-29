@@ -3,32 +3,81 @@ import path from "path";
 import { Entity } from "./schemas/entity";
 const app = express();
 
-//Import the mongoose module
-import mongoose from 'mongoose';
+const fs = require("fs");
+let backupifyBlob = JSON.parse(
+  fs.readFileSync("./assets/dattoStrip.json", "utf-8")
+);
 
-//Set up default mongoose connection
-const mongoDB = 'mongodb://localhost/spell_book_database';
-mongoose.connect(mongoDB, { useNewUrlParser: true });
+type BackupifySite = {
+  name: string;
+  usedBytes: string;
+  status: string;
+  latestSnap: string;
+};
 
-//Get the default connection
-const db = mongoose.connection;
+type SummaryNode = {
+  bytesHere?: number;
+  childrenTotalBytes?: number;
+  children: SummaryMap;
+};
 
-//Bind connection to error event (to get notification of connection errors)
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+type SummaryMap = Record<string, SummaryNode>;
 
-//Set up db
-db.createCollection('Entities')
-const firstEntity = new Entity({ name: 'First One' });
+function byteStringToInteger(byteString: string): number {
+  const stringSplit = byteString.split(" ");
+  let byteNum = parseFloat(stringSplit[0]);
+  switch (stringSplit[1]) {
+    case "kB":
+      byteNum = byteNum * 10e2;
+      break;
+    case "MB":
+      byteNum = byteNum * 10e5;
+      break;
+    case "GB":
+      byteNum = byteNum * 10e8;
+      break;
+  }
+  return Math.round(byteNum);
+}
 
-firstEntity.save((err, entity) => {
-  console.log(entity);
+function totalDataCount(node: SummaryNode): number {
+  node.childrenTotalBytes = 0;
+  for (let nodePath in node.children) {
+    let childSummaryNode = node.children[nodePath];
+    node.childrenTotalBytes += totalDataCount(childSummaryNode);
+  }
+  return node.childrenTotalBytes + (node.bytesHere || 0);
+}
+
+app.get("/backupify", (req, res) => {
+  let siteCount = 0;
+  const dataReport: SummaryMap = { root: { children: {} } };
+
+  // Digest each site data point
+  backupifyBlob.data.forEach((site: BackupifySite) => {
+    siteCount++;
+    const pathList = site.name.trimLeft().split("/");
+    let thisNode: SummaryNode = dataReport.root;
+
+    pathList.forEach((path: string) => {
+      if (path != "") {
+        if (!thisNode.children[path]) {
+          thisNode.children[path] = { children: {} };
+        }
+        thisNode = thisNode.children[path];
+      }
+    });
+
+    thisNode.bytesHere = byteStringToInteger(site.usedBytes);
+  });
+
+  // Roll up child sizes to parents and report
+  console.log("Total Data: " + totalDataCount(dataReport.root) / 10e8 + "GB");
+  console.log("Site Count: " + siteCount);
+  res.json(dataReport);
 });
-Entity.find(function (err, entities) {
-  if (err) return console.error(err);
-  console.log(entities);
-})
 
 const PORT = process.env.PORT || 8082;
-app.listen(PORT, function () {
+app.listen(PORT, function() {
   console.log("Production Express server running at localhost:" + PORT);
 });

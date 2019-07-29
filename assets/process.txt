@@ -1,0 +1,1 @@
+Use RegEx `"snapshots"\:\[(\{"snapshotId":[0-9]*\},?)*],` to remove unnecessary data

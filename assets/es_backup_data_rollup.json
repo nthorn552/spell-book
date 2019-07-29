@@ -1,0 +1,2409 @@
+{
+  "root": {
+    "children": {
+      "ws": {
+        "children": {
+          "sandbox": {
+            "children": {
+              "chris": {
+                "children": {},
+                "bytesHere": 27640000,
+                "childrenTotalBytes": 0
+              },
+              "joyce": {
+                "children": {},
+                "bytesHere": 55120000,
+                "childrenTotalBytes": 0
+              },
+              "noah": {
+                "children": {},
+                "bytesHere": 168110000,
+                "childrenTotalBytes": 0
+              },
+              "testing": {
+                "children": {},
+                "bytesHere": 7210000,
+                "childrenTotalBytes": 0
+              },
+              "js": {
+                "children": {},
+                "bytesHere": 177320000,
+                "childrenTotalBytes": 0
+              },
+              "lighteningapp": {
+                "children": {
+                  "LightningConductorApp": {
+                    "children": {},
+                    "bytesHere": 5250000,
+                    "childrenTotalBytes": 0
+                  }
+                },
+                "bytesHere": 61020000,
+                "childrenTotalBytes": 5250000
+              },
+              "pwasandbox": {
+                "children": {},
+                "bytesHere": 6550000,
+                "childrenTotalBytes": 0
+              },
+              "blog": {
+                "children": {},
+                "bytesHere": 89850000,
+                "childrenTotalBytes": 0
+              },
+              "p4p-poc": {
+                "children": {},
+                "bytesHere": 72470000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 144930000,
+            "childrenTotalBytes": 670540000
+          },
+          "facilities": {
+            "children": {},
+            "bytesHere": 906660000,
+            "childrenTotalBytes": 0
+          },
+          "rc": {
+            "children": {},
+            "bytesHere": 404110000,
+            "childrenTotalBytes": 0
+          },
+          "caltf": {
+            "children": {},
+            "bytesHere": 49360000,
+            "childrenTotalBytes": 0
+          },
+          "sharepoint-support": {
+            "children": {},
+            "bytesHere": 1180000000,
+            "childrenTotalBytes": 0
+          },
+          "standards": {
+            "children": {},
+            "bytesHere": 294040000,
+            "childrenTotalBytes": 0
+          },
+          "marketing": {
+            "children": {},
+            "bytesHere": 11810000000,
+            "childrenTotalBytes": 0
+          },
+          "invoicing": {
+            "children": {},
+            "bytesHere": 115260000000,
+            "childrenTotalBytes": 0
+          },
+          "pods": {
+            "children": {},
+            "bytesHere": 145120000,
+            "childrenTotalBytes": 0
+          },
+          "products": {
+            "children": {
+              "iris": {
+                "children": {},
+                "bytesHere": 3680000000,
+                "childrenTotalBytes": 0
+              },
+              "webscraping": {
+                "children": {},
+                "bytesHere": 199770000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 3560000000,
+            "childrenTotalBytes": 3879770000
+          },
+          "facilities-reception": {
+            "children": {},
+            "bytesHere": 811750000,
+            "childrenTotalBytes": 0
+          },
+          "meetings": {
+            "children": {},
+            "bytesHere": 19260000000,
+            "childrenTotalBytes": 0
+          },
+          "salesforce-support": {
+            "children": {},
+            "bytesHere": 317480000,
+            "childrenTotalBytes": 0
+          },
+          "trade-ally-request": {
+            "children": {},
+            "bytesHere": 63620000,
+            "childrenTotalBytes": 0
+          },
+          "strategy": {
+            "children": {},
+            "bytesHere": 607410000,
+            "childrenTotalBytes": 0
+          },
+          "spadmin": {
+            "children": {},
+            "bytesHere": 1760000000,
+            "childrenTotalBytes": 0
+          },
+          "et": {
+            "children": {},
+            "bytesHere": 66640000,
+            "childrenTotalBytes": 0
+          },
+          "contracting": {
+            "children": {
+              "Dolphin365": {
+                "children": {},
+                "bytesHere": 6560000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 1600000000,
+            "childrenTotalBytes": 6560000
+          },
+          "soc": {
+            "children": {},
+            "bytesHere": 1270000000,
+            "childrenTotalBytes": 0
+          },
+          "onboarding": {
+            "children": {},
+            "bytesHere": 318050000,
+            "childrenTotalBytes": 0
+          },
+          "gas-strategy": {
+            "children": {},
+            "bytesHere": 497320000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "bytesHere": 4750000000,
+        "childrenTotalBytes": 164883360000
+      },
+      "kc": {
+        "children": {
+          "industry": {
+            "children": {},
+            "bytesHere": 15630000,
+            "childrenTotalBytes": 0
+          },
+          "er": {
+            "children": {},
+            "bytesHere": 1010000000,
+            "childrenTotalBytes": 0
+          },
+          "coe": {
+            "children": {},
+            "bytesHere": 41660000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "bytesHere": 74690000,
+        "childrenTotalBytes": 1067290000
+      },
+      "bd": {
+        "children": {
+          "scemsa": {
+            "children": {},
+            "bytesHere": 241460000,
+            "childrenTotalBytes": 0
+          },
+          "PGEMicroPilot": {
+            "children": {},
+            "bytesHere": 110780000,
+            "childrenTotalBytes": 0
+          },
+          "efficiencymainerfp": {
+            "children": {},
+            "bytesHere": 56290000,
+            "childrenTotalBytes": 0
+          },
+          "aecrichmondII": {
+            "children": {},
+            "bytesHere": 273880000,
+            "childrenTotalBytes": 0
+          },
+          "SDGE-EMV-2017": {
+            "children": {},
+            "bytesHere": 68460000,
+            "childrenTotalBytes": 0
+          },
+          "SOMAH": {
+            "children": {},
+            "bytesHere": 75100000,
+            "childrenTotalBytes": 0
+          },
+          "PSE-HPWH": {
+            "children": {},
+            "bytesHere": 231820000,
+            "childrenTotalBytes": 0
+          },
+          "NYSERDA_Codes": {
+            "children": {},
+            "bytesHere": 128260000,
+            "childrenTotalBytes": 0
+          },
+          "DoESolarFOA": {
+            "children": {},
+            "bytesHere": 47070000,
+            "childrenTotalBytes": 0
+          },
+          "SWHVAC": {
+            "children": {},
+            "bytesHere": 799530000,
+            "childrenTotalBytes": 0
+          },
+          "cectechrdq": {
+            "children": {},
+            "bytesHere": 69480000,
+            "childrenTotalBytes": 0
+          },
+          "OmnibusB": {
+            "children": {},
+            "bytesHere": 71040000,
+            "childrenTotalBytes": 0
+          },
+          "PGE-DPP": {
+            "children": {},
+            "bytesHere": 71860000,
+            "childrenTotalBytes": 0
+          },
+          "nationalcodessow": {
+            "children": {},
+            "bytesHere": 49690000,
+            "childrenTotalBytes": 0
+          },
+          "MANonLighting": {
+            "children": {},
+            "bytesHere": 1050000000,
+            "childrenTotalBytes": 0
+          },
+          "ComEdCHP": {
+            "children": {},
+            "bytesHere": 99610000,
+            "childrenTotalBytes": 0
+          },
+          "Enervee-TPC-2017": {
+            "children": {},
+            "bytesHere": 67910000,
+            "childrenTotalBytes": 0
+          },
+          "CECG2": {
+            "children": {},
+            "bytesHere": 90640000,
+            "childrenTotalBytes": 0
+          },
+          "uniongaswhfs": {
+            "children": {},
+            "bytesHere": 166700000,
+            "childrenTotalBytes": 0
+          },
+          "pcecommunity": {
+            "children": {},
+            "bytesHere": 6300000,
+            "childrenTotalBytes": 0
+          },
+          "PastProjects": {
+            "children": {},
+            "bytesHere": 68480000,
+            "childrenTotalBytes": 0
+          },
+          "sdg&amp;e_rfa": {
+            "children": {},
+            "bytesHere": 94680000,
+            "childrenTotalBytes": 0
+          },
+          "PCEEVSEPilots": {
+            "children": {},
+            "bytesHere": 150720000,
+            "childrenTotalBytes": 0
+          },
+          "prop1": {
+            "children": {},
+            "bytesHere": 6700000,
+            "childrenTotalBytes": 0
+          },
+          "PGE3PRFPs": {
+            "children": {},
+            "bytesHere": 1004840000,
+            "childrenTotalBytes": 0
+          },
+          "18-NYScodes": {
+            "children": {},
+            "bytesHere": 81160000,
+            "childrenTotalBytes": 0
+          },
+          "mainedr": {
+            "children": {},
+            "bytesHere": 144930000,
+            "childrenTotalBytes": 0
+          },
+          "ngrid-et-lighting": {
+            "children": {},
+            "bytesHere": 139270000,
+            "childrenTotalBytes": 0
+          },
+          "AEPOhioMidstream": {
+            "children": {},
+            "bytesHere": 481730000,
+            "childrenTotalBytes": 0
+          },
+          "ComEDET": {
+            "children": {},
+            "bytesHere": 487840000,
+            "childrenTotalBytes": 0
+          },
+          "2022T24CASE": {
+            "children": {},
+            "bytesHere": 310410000,
+            "childrenTotalBytes": 0
+          },
+          "17-PSE-TPC": {
+            "children": {},
+            "bytesHere": 214180000,
+            "childrenTotalBytes": 0
+          },
+          "sceautodrengineeingservices": {
+            "children": {},
+            "bytesHere": 119730000,
+            "childrenTotalBytes": 0
+          },
+          "ILSolar4All": {
+            "children": {},
+            "bytesHere": 77350000,
+            "childrenTotalBytes": 0
+          },
+          "SCE_Local_RFA": {
+            "children": {},
+            "bytesHere": 182590000,
+            "childrenTotalBytes": 0
+          },
+          "conferences": {
+            "children": {},
+            "bytesHere": 718670000,
+            "childrenTotalBytes": 0
+          },
+          "nhlightingrfp": {
+            "children": {},
+            "bytesHere": 393300000,
+            "childrenTotalBytes": 0
+          },
+          "SWstatepartner": {
+            "children": {},
+            "bytesHere": 80060000,
+            "childrenTotalBytes": 0
+          },
+          "aeclancasterII": {
+            "children": {},
+            "bytesHere": 846400000,
+            "childrenTotalBytes": 0
+          },
+          "ca-sw-wh": {
+            "children": {},
+            "bytesHere": 82550000,
+            "childrenTotalBytes": 0
+          },
+          "psemidrfp": {
+            "children": {},
+            "bytesHere": 525550000,
+            "childrenTotalBytes": 0
+          },
+          "ILBlockProgram": {
+            "children": {},
+            "bytesHere": 68570000,
+            "childrenTotalBytes": 0
+          },
+          "NEEA-HP-10-17": {
+            "children": {},
+            "bytesHere": 151200000,
+            "childrenTotalBytes": 0
+          },
+          "Ca-sw-fs": {
+            "children": {},
+            "bytesHere": 190790000,
+            "childrenTotalBytes": 0
+          },
+          "PGE-Oak-NWA-RFO": {
+            "children": {},
+            "bytesHere": 84840000,
+            "childrenTotalBytes": 0
+          },
+          "KCPL-HVAC": {
+            "children": {},
+            "bytesHere": 579580000,
+            "childrenTotalBytes": 0
+          },
+          "nrcantechsup": {
+            "children": {},
+            "bytesHere": 794840000,
+            "childrenTotalBytes": 0
+          },
+          "DTEFoodserviceRFP": {
+            "children": {},
+            "bytesHere": 731010000,
+            "childrenTotalBytes": 0
+          },
+          "bd-site-template": {
+            "children": {},
+            "bytesHere": 49150000,
+            "childrenTotalBytes": 0
+          },
+          "17-ZNE-Comm-Market": {
+            "children": {},
+            "bytesHere": 68280000,
+            "childrenTotalBytes": 0
+          },
+          "CSProjectCoord": {
+            "children": {},
+            "bytesHere": 294130000,
+            "childrenTotalBytes": 0
+          },
+          "SMUD-ADR": {
+            "children": {},
+            "bytesHere": 109900000,
+            "childrenTotalBytes": 0
+          },
+          "EversourceMSA": {
+            "children": {},
+            "bytesHere": 153020000,
+            "childrenTotalBytes": 0
+          },
+          "ISrequests": {
+            "children": {},
+            "bytesHere": 68950000,
+            "childrenTotalBytes": 0
+          },
+          "pcesvcereach": {
+            "children": {},
+            "bytesHere": 253010000,
+            "childrenTotalBytes": 0
+          },
+          "NVE-HPWH": {
+            "children": {},
+            "bytesHere": 167860000,
+            "childrenTotalBytes": 0
+          },
+          "17-Mass-Smart-SPA": {
+            "children": {},
+            "bytesHere": 258820000,
+            "childrenTotalBytes": 0
+          },
+          "18-PGE-ADR": {
+            "children": {},
+            "bytesHere": 67930000,
+            "childrenTotalBytes": 0
+          },
+          "DGSrfi": {
+            "children": {},
+            "bytesHere": 73030000,
+            "childrenTotalBytes": 0
+          },
+          "SVCEDecarb": {
+            "children": {},
+            "bytesHere": 465620000,
+            "childrenTotalBytes": 0
+          },
+          "stategovpartnership": {
+            "children": {},
+            "bytesHere": 65800000,
+            "childrenTotalBytes": 0
+          },
+          "t20fedappliance": {
+            "children": {},
+            "bytesHere": 77990000,
+            "childrenTotalBytes": 0
+          },
+          "ConEd-Implementation": {
+            "children": {},
+            "bytesHere": 900460000,
+            "childrenTotalBytes": 0
+          },
+          "dtehvacrfp": {
+            "children": {},
+            "bytesHere": 271420000,
+            "childrenTotalBytes": 0
+          },
+          "illinois-abpa": {
+            "children": {},
+            "bytesHere": 1080000000,
+            "childrenTotalBytes": 0
+          },
+          "SVCEInnovationOnramp": {
+            "children": {},
+            "bytesHere": 41720000,
+            "childrenTotalBytes": 0
+          },
+          "flextech2018": {
+            "children": {},
+            "bytesHere": 140370000,
+            "childrenTotalBytes": 0
+          },
+          "scppaefficiency": {
+            "children": {},
+            "bytesHere": 95600000,
+            "childrenTotalBytes": 0
+          },
+          "pceevseprogram": {
+            "children": {},
+            "bytesHere": 49960000,
+            "childrenTotalBytes": 0
+          },
+          "SVCEEVJAP": {
+            "children": {},
+            "bytesHere": 184230000,
+            "childrenTotalBytes": 0
+          },
+          "MCE-RFP-MYP": {
+            "children": {},
+            "bytesHere": 524930000,
+            "childrenTotalBytes": 0
+          },
+          "SCE-SB793-MYP-2017": {
+            "children": {},
+            "bytesHere": 69910000,
+            "childrenTotalBytes": 0
+          },
+          "PacificCorpDR": {
+            "children": {},
+            "bytesHere": 70890000,
+            "childrenTotalBytes": 0
+          },
+          "WH-GBC-2017": {
+            "children": {},
+            "bytesHere": 132150000,
+            "childrenTotalBytes": 0
+          },
+          "new-proposal-site": {
+            "children": {},
+            "bytesHere": 80440000,
+            "childrenTotalBytes": 0
+          },
+          "SCAQMDTechAdv": {
+            "children": {},
+            "bytesHere": 73980000,
+            "childrenTotalBytes": 0
+          },
+          "NYSERDA-REM-10-17": {
+            "children": {},
+            "bytesHere": 68460000,
+            "childrenTotalBytes": 0
+          },
+          "ConEd-hvac-lghtg-2017": {
+            "children": {},
+            "bytesHere": 542840000,
+            "childrenTotalBytes": 0
+          },
+          "PG&amp;E3PRFA": {
+            "children": {},
+            "bytesHere": 555010000,
+            "childrenTotalBytes": 0
+          },
+          "oregonsolar": {
+            "children": {},
+            "bytesHere": 648210000,
+            "childrenTotalBytes": 0
+          },
+          "duketpc": {
+            "children": {},
+            "bytesHere": 216410000,
+            "childrenTotalBytes": 0
+          },
+          "berkeleyBESO": {
+            "children": {},
+            "bytesHere": 55930000,
+            "childrenTotalBytes": 0
+          },
+          "18-CED-TradePro-2": {
+            "children": {},
+            "bytesHere": 168850000,
+            "childrenTotalBytes": 0
+          },
+          "EUIDatabases": {
+            "children": {},
+            "bytesHere": 68340000,
+            "childrenTotalBytes": 0
+          },
+          "stopwasterfq": {
+            "children": {},
+            "bytesHere": 76640000,
+            "childrenTotalBytes": 0
+          },
+          "SWelectricET": {
+            "children": {},
+            "bytesHere": 90410000,
+            "childrenTotalBytes": 0
+          },
+          "ProposalSiteTemplate": {
+            "children": {},
+            "bytesHere": 99090000,
+            "childrenTotalBytes": 0
+          },
+          "scgisprfp": {
+            "children": {},
+            "bytesHere": 62540000,
+            "childrenTotalBytes": 0
+          },
+          "SMUDADR": {
+            "children": {},
+            "bytesHere": 158280000,
+            "childrenTotalBytes": 0
+          },
+          "pcecommunityrfp": {
+            "children": {},
+            "bytesHere": 74110000,
+            "childrenTotalBytes": 0
+          },
+          "NYSERDAGroupCTPC": {
+            "children": {},
+            "bytesHere": 101570000,
+            "childrenTotalBytes": 0
+          },
+          "neeahvac": {
+            "children": {},
+            "bytesHere": 91260000,
+            "childrenTotalBytes": 0
+          },
+          "mbcprfp": {
+            "children": {},
+            "bytesHere": 91900000,
+            "childrenTotalBytes": 0
+          },
+          "SCEHOPPS": {
+            "children": {},
+            "bytesHere": 72390000,
+            "childrenTotalBytes": 0
+          },
+          "170828-pseupstream": {
+            "children": {},
+            "bytesHere": 1210000000,
+            "childrenTotalBytes": 0
+          },
+          "pcecommunitypilot": {
+            "children": {},
+            "bytesHere": 71120000,
+            "childrenTotalBytes": 0
+          },
+          "cbpadr": {
+            "children": {},
+            "bytesHere": 138570000,
+            "childrenTotalBytes": 0
+          },
+          "MAlightingrfp": {
+            "children": {},
+            "bytesHere": 1320000000,
+            "childrenTotalBytes": 0
+          },
+          "DTE-HVAC": {
+            "children": {},
+            "bytesHere": 784720000,
+            "childrenTotalBytes": 0
+          },
+          "eversourcehvac": {
+            "children": {},
+            "bytesHere": 37460000,
+            "childrenTotalBytes": 0
+          },
+          "CEC3": {
+            "children": {},
+            "bytesHere": 93950000,
+            "childrenTotalBytes": 0
+          },
+          "Canada-TEMA": {
+            "children": {},
+            "bytesHere": 87610000,
+            "childrenTotalBytes": 0
+          },
+          "pgeresimyp": {
+            "children": {},
+            "bytesHere": 51960000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "bytesHere": 29310000000,
+        "childrenTotalBytes": 25515030000
+      },
+      "sites": {
+        "children": {
+          "projects": {
+            "children": {
+              "pce-low-power-ev-charging-pilot": {
+                "children": {},
+                "bytesHere": 26270000,
+                "childrenTotalBytes": 0
+              },
+              "cec-pp": {
+                "children": {},
+                "bytesHere": 156780000,
+                "childrenTotalBytes": 0
+              },
+              "mbcp-pev-local-codes": {
+                "children": {},
+                "bytesHere": 24840000,
+                "childrenTotalBytes": 0
+              },
+              "avta": {
+                "children": {},
+                "bytesHere": 734670000,
+                "childrenTotalBytes": 0
+              },
+              "t20-cns-support": {
+                "children": {},
+                "bytesHere": 53110000,
+                "childrenTotalBytes": 0
+              },
+              "bdc-program-design": {
+                "children": {},
+                "bytesHere": 47520000,
+                "childrenTotalBytes": 0
+              },
+              "neea-rpp": {
+                "children": {},
+                "bytesHere": 25940000,
+                "childrenTotalBytes": 0
+              },
+              "code-ready-imp": {
+                "children": {},
+                "bytesHere": 761700000,
+                "childrenTotalBytes": 0
+              },
+              "t24-lighting": {
+                "children": {},
+                "bytesHere": 25970000,
+                "childrenTotalBytes": 0
+              },
+              "t24-2019-daylighting": {
+                "children": {},
+                "bytesHere": 26080000,
+                "childrenTotalBytes": 0
+              },
+              "stopwaste-hpwh-workforce-development": {
+                "children": {},
+                "bytesHere": 26300000,
+                "childrenTotalBytes": 0
+              },
+              "impact-cctr": {
+                "children": {},
+                "bytesHere": 3740000000,
+                "childrenTotalBytes": 0
+              },
+              "pge-hvac-data-monitoring": {
+                "children": {},
+                "bytesHere": 169860000,
+                "childrenTotalBytes": 0
+              },
+              "cec-aec-lancaster-phase2": {
+                "children": {},
+                "bytesHere": 68520000,
+                "childrenTotalBytes": 0
+              },
+              "sce-daylighting-symposium": {
+                "children": {},
+                "bytesHere": 1410000000,
+                "childrenTotalBytes": 0
+              },
+              "plug-load-zne": {
+                "children": {},
+                "bytesHere": 147250000,
+                "childrenTotalBytes": 0
+              },
+              "northeast-upstream-nonlighting-program": {
+                "children": {},
+                "bytesHere": 21420000000,
+                "childrenTotalBytes": 0
+              },
+              "sce-vrf-manufacturer-outreach-for-adr": {
+                "children": {},
+                "bytesHere": 180880000,
+                "childrenTotalBytes": 0
+              },
+              "sce-adr-development-and-deployment-for-hvac-distributors": {
+                "children": {},
+                "bytesHere": 49050000,
+                "childrenTotalBytes": 0
+              },
+              "ct-ups-lighting": {
+                "children": {},
+                "bytesHere": 4290000000,
+                "childrenTotalBytes": 0
+              },
+              "p4ptemplate": {
+                "children": {},
+                "bytesHere": 24540000,
+                "childrenTotalBytes": 0
+              },
+              "nyserda-standard-support-2019-update-model-bill-analysis": {
+                "children": {},
+                "bytesHere": 28600000,
+                "childrenTotalBytes": 0
+              },
+              "solar-thermal": {
+                "children": {},
+                "bytesHere": 1140000000,
+                "childrenTotalBytes": 0
+              },
+              "cec-ct-mp": {
+                "children": {},
+                "bytesHere": 6490000000,
+                "childrenTotalBytes": 0
+              },
+              "water-reach-codes": {
+                "children": {},
+                "bytesHere": 1360000000,
+                "childrenTotalBytes": 0
+              },
+              "sce-minisplit-modeling": {
+                "children": {},
+                "bytesHere": 138270000,
+                "childrenTotalBytes": 0
+              },
+              "sfpuc-commercial-pools": {
+                "children": {},
+                "bytesHere": 27560000,
+                "childrenTotalBytes": 0
+              },
+              "scg-isp-studies": {
+                "children": {},
+                "bytesHere": 98460000,
+                "childrenTotalBytes": 0
+              },
+              "dlc": {
+                "children": {},
+                "bytesHere": 446890000,
+                "childrenTotalBytes": 0
+              },
+              "T24_2022": {
+                "children": {},
+                "bytesHere": 1610000000,
+                "childrenTotalBytes": 0
+              },
+              "2022-title24-low-rise-residential": {
+                "children": {},
+                "bytesHere": 26260000,
+                "childrenTotalBytes": 0
+              },
+              "willdan-sdge-lccp-support": {
+                "children": {},
+                "bytesHere": 29400000,
+                "childrenTotalBytes": 0
+              },
+              "neea-hvac-data": {
+                "children": {},
+                "bytesHere": 216510000,
+                "childrenTotalBytes": 0
+              },
+              "cec-p-pro": {
+                "children": {},
+                "bytesHere": 61460000,
+                "childrenTotalBytes": 0
+              },
+              "pge-national-building-codes-support": {
+                "children": {},
+                "bytesHere": 41550000,
+                "childrenTotalBytes": 0
+              },
+              "neea-study": {
+                "children": {},
+                "bytesHere": 37120000,
+                "childrenTotalBytes": 0
+              },
+              "ups-circular-pumps": {
+                "children": {},
+                "bytesHere": 27490000,
+                "childrenTotalBytes": 0
+              },
+              "pge-res-software-support": {
+                "children": {},
+                "bytesHere": 105090000,
+                "childrenTotalBytes": 0
+              },
+              "pce-reach-codes-technical-support": {
+                "children": {},
+                "bytesHere": 51380000,
+                "childrenTotalBytes": 0
+              },
+              "sce-fed-stds-support": {
+                "children": {},
+                "bytesHere": 26100000,
+                "childrenTotalBytes": 0
+              },
+              "znc": {
+                "children": {},
+                "bytesHere": 30100000,
+                "childrenTotalBytes": 0
+              },
+              "prpa-mid-cooling": {
+                "children": {},
+                "bytesHere": 149750000,
+                "childrenTotalBytes": 0
+              },
+              "pge-advocacy-webscraping-revenue": {
+                "children": {},
+                "bytesHere": 24800000,
+                "childrenTotalBytes": 0
+              },
+              "neea-nlc-energy-savings-study-update": {
+                "children": {},
+                "bytesHere": 26900000,
+                "childrenTotalBytes": 0
+              },
+              "demo": {
+                "children": {},
+                "bytesHere": 154250000,
+                "childrenTotalBytes": 0
+              },
+              "migration-template": {
+                "children": {},
+                "bytesHere": 26050000,
+                "childrenTotalBytes": 0
+              },
+              "ny-pos-foodservice": {
+                "children": {},
+                "bytesHere": 8840000000,
+                "childrenTotalBytes": 0
+              },
+              "richmond-reach-codes": {
+                "children": {},
+                "bytesHere": 29570000,
+                "childrenTotalBytes": 0
+              },
+              "pse-mids-hvac-water": {
+                "children": {},
+                "bytesHere": 1020620000,
+                "childrenTotalBytes": 0
+              },
+              "berkeley-beso-report": {
+                "children": {},
+                "bytesHere": 45230000,
+                "childrenTotalBytes": 0
+              },
+              "nh-ups-lighting": {
+                "children": {},
+                "bytesHere": 521970000,
+                "childrenTotalBytes": 0
+              },
+              "cpuc-rps": {
+                "children": {},
+                "bytesHere": 145250000,
+                "childrenTotalBytes": 0
+              },
+              "t24-2019-lighting": {
+                "children": {
+                  "LightningConductorApp": {
+                    "children": {},
+                    "bytesHere": 193000,
+                    "childrenTotalBytes": 0
+                  }
+                },
+                "bytesHere": 27550000,
+                "childrenTotalBytes": 193000
+              },
+              "mce-myp": {
+                "children": {},
+                "bytesHere": 948380000,
+                "childrenTotalBytes": 0
+              },
+              "comm-hvac-2019": {
+                "children": {},
+                "bytesHere": 340110000,
+                "childrenTotalBytes": 0
+              },
+              "reach-code-tech-support": {
+                "children": {},
+                "bytesHere": 26110000,
+                "childrenTotalBytes": 0
+              },
+              "t20-ious": {
+                "children": {},
+                "bytesHere": 38540000000,
+                "childrenTotalBytes": 0
+              },
+              "dg-stats": {
+                "children": {},
+                "bytesHere": 39080000,
+                "childrenTotalBytes": 0
+              },
+              "cns-appliance-stds": {
+                "children": {},
+                "bytesHere": 42700000,
+                "childrenTotalBytes": 0
+              },
+              "sce-building-energy-modeling-activities-coordination-support": {
+                "children": {},
+                "bytesHere": 82280000,
+                "childrenTotalBytes": 0
+              },
+              "basic": {
+                "children": {},
+                "bytesHere": 27960000,
+                "childrenTotalBytes": 0
+              },
+              "xcel-hvac-midstream": {
+                "children": {},
+                "bytesHere": 5900000000,
+                "childrenTotalBytes": 0
+              },
+              "scemyp": {
+                "children": {},
+                "bytesHere": 238090000,
+                "childrenTotalBytes": 0
+              },
+              "dte-hvacr-pilot": {
+                "children": {},
+                "bytesHere": 1001260000,
+                "childrenTotalBytes": 0
+              },
+              "smud-adr": {
+                "children": {},
+                "bytesHere": 25940000,
+                "childrenTotalBytes": 0
+              },
+              "sgip": {
+                "children": {},
+                "bytesHere": 3080000000,
+                "childrenTotalBytes": 0
+              },
+              "sce-cvrh": {
+                "children": {},
+                "bytesHere": 53970000,
+                "childrenTotalBytes": 0
+              },
+              "prod-dev-support": {
+                "children": {},
+                "bytesHere": 234790000,
+                "childrenTotalBytes": 0
+              },
+              "t24-2019-coord": {
+                "children": {},
+                "bytesHere": 26000000,
+                "childrenTotalBytes": 0
+              },
+              "cec-p-epe-hub": {
+                "children": {},
+                "bytesHere": 485370000,
+                "childrenTotalBytes": 0
+              },
+              "VTA-VGI": {
+                "children": {},
+                "bytesHere": 26130000,
+                "childrenTotalBytes": 0
+              },
+              "scppa-upstream-hvac": {
+                "children": {},
+                "bytesHere": 6200000000,
+                "childrenTotalBytes": 0
+              },
+              "sce-res-software-support": {
+                "children": {},
+                "bytesHere": 91020000,
+                "childrenTotalBytes": 0
+              },
+              "pos-food-serv-program": {
+                "children": {},
+                "bytesHere": 18750000000,
+                "childrenTotalBytes": 0
+              },
+              "ee-p4p-operating-cost-data-analytics": {
+                "children": {},
+                "bytesHere": 1540000000,
+                "childrenTotalBytes": 0
+              },
+              "swg-ca-pos-food-service": {
+                "children": {},
+                "bytesHere": 37470000,
+                "childrenTotalBytes": 0
+              },
+              "svce-reach-code-technical-support": {
+                "children": {},
+                "bytesHere": 63790000,
+                "childrenTotalBytes": 0
+              },
+              "sce-xero-home": {
+                "children": {},
+                "bytesHere": 32160000,
+                "childrenTotalBytes": 0
+              },
+              "res-software-support": {
+                "children": {},
+                "bytesHere": 27520000,
+                "childrenTotalBytes": 0
+              },
+              "tradepro-connect-duke": {
+                "children": {},
+                "bytesHere": 1080000000,
+                "childrenTotalBytes": 0
+              },
+              "chiller-perf-curves": {
+                "children": {},
+                "bytesHere": 326410000,
+                "childrenTotalBytes": 0
+              },
+              "ct-foodservice": {
+                "children": {},
+                "bytesHere": 628750000,
+                "childrenTotalBytes": 0
+              },
+              "pge-compliance-and-improvement": {
+                "children": {},
+                "bytesHere": 444080000,
+                "childrenTotalBytes": 0
+              },
+              "csi": {
+                "children": {},
+                "bytesHere": 37520000000,
+                "childrenTotalBytes": 0
+              },
+              "ladwp-foodservice": {
+                "children": {},
+                "bytesHere": 77260000,
+                "childrenTotalBytes": 0
+              },
+              "duke-midstream": {
+                "children": {},
+                "bytesHere": 9990000000,
+                "childrenTotalBytes": 0
+              },
+              "somah": {
+                "children": {},
+                "bytesHere": 540850000,
+                "childrenTotalBytes": 0
+              },
+              "caletc-ev-codes-existing-buildings": {
+                "children": {},
+                "bytesHere": 75130000,
+                "childrenTotalBytes": 0
+              },
+              "T24-2022NR": {
+                "children": {},
+                "bytesHere": 999610000,
+                "childrenTotalBytes": 0
+              },
+              "rtd-t20-federal": {
+                "children": {},
+                "bytesHere": 174380000,
+                "childrenTotalBytes": 0
+              },
+              "sce-upstream-hvac": {
+                "children": {},
+                "bytesHere": 3980000000,
+                "childrenTotalBytes": 0
+              },
+              "ospa": {
+                "children": {},
+                "bytesHere": 221240000,
+                "childrenTotalBytes": 0
+              },
+              "boilers-heaters-pumps": {
+                "children": {},
+                "bytesHere": 308350000,
+                "childrenTotalBytes": 0
+              },
+              "building-decarbonization-policy-memo": {
+                "children": {},
+                "bytesHere": 154650000,
+                "childrenTotalBytes": 0
+              },
+              "nrc-appliance-standards-support-jurisdiction-review": {
+                "children": {},
+                "bytesHere": 15440000,
+                "childrenTotalBytes": 0
+              },
+              "non-p4p-trng": {
+                "children": {},
+                "bytesHere": 27720000,
+                "childrenTotalBytes": 0
+              },
+              "cross-cutting": {
+                "children": {},
+                "bytesHere": 42870000000,
+                "childrenTotalBytes": 0
+              },
+              "pwa": {
+                "children": {},
+                "bytesHere": 72640000,
+                "childrenTotalBytes": 0
+              },
+              "ne-expansion-maine-dr-pilot-innovation": {
+                "children": {},
+                "bytesHere": 28370000,
+                "childrenTotalBytes": 0
+              },
+              "tech-support-coord": {
+                "children": {},
+                "bytesHere": 26050000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 55420000,
+            "childrenTotalBytes": 233834713000
+          },
+          "Onboarding79": {
+            "children": {},
+            "bytesHere": 30750000,
+            "childrenTotalBytes": 0
+          },
+          "Title20ComplianceImprovement": {
+            "children": {},
+            "bytesHere": 22030000,
+            "childrenTotalBytes": 0
+          },
+          "ADROperationsTeam": {
+            "children": {},
+            "bytesHere": 29300000,
+            "childrenTotalBytes": 0
+          },
+          "testo365group": {
+            "children": {},
+            "bytesHere": 23530000,
+            "childrenTotalBytes": 0
+          },
+          "Onboarding77": {
+            "children": {},
+            "bytesHere": 21350000,
+            "childrenTotalBytes": 0
+          },
+          "ithelpdesk": {
+            "children": {},
+            "bytesHere": 21970000,
+            "childrenTotalBytes": 0
+          },
+          "UpstreamProgramCoordination": {
+            "children": {},
+            "bytesHere": 28660000,
+            "childrenTotalBytes": 0
+          },
+          "twallace": {
+            "children": {},
+            "bytesHere": 28280000,
+            "childrenTotalBytes": 0
+          },
+          "CharliesPlan": {
+            "children": {},
+            "bytesHere": 27190000,
+            "childrenTotalBytes": 0
+          },
+          "ISCoordination-SoCalER": {
+            "children": {},
+            "bytesHere": 22190000,
+            "childrenTotalBytes": 0
+          },
+          "ADRMarketing": {
+            "children": {},
+            "bytesHere": 28550000,
+            "childrenTotalBytes": 0
+          },
+          "PGECommercialWaterHeatersBoilersProgram": {
+            "children": {},
+            "bytesHere": 134120000,
+            "childrenTotalBytes": 0
+          },
+          "OutreachMarketing": {
+            "children": {},
+            "bytesHere": 173300000,
+            "childrenTotalBytes": 0
+          },
+          "SCEADRMYP": {
+            "children": {},
+            "bytesHere": 21890000,
+            "childrenTotalBytes": 0
+          },
+          "IDSvcs": {
+            "children": {
+              "pedp": {
+                "children": {},
+                "bytesHere": 1490000000,
+                "childrenTotalBytes": 0
+              },
+              "blog": {
+                "children": {},
+                "bytesHere": 292170,
+                "childrenTotalBytes": 0
+              },
+              "dlc-nlc-data": {
+                "children": {},
+                "bytesHere": 188860000,
+                "childrenTotalBytes": 0
+              },
+              "dlc-tss": {
+                "children": {},
+                "bytesHere": 4860000000,
+                "childrenTotalBytes": 0
+              },
+              "sp": {
+                "children": {},
+                "bytesHere": 8740000,
+                "childrenTotalBytes": 0
+              },
+              "epcdrltg": {
+                "children": {},
+                "bytesHere": 693760000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 595030000,
+            "childrenTotalBytes": 7241652170
+          },
+          "TestSite": {
+            "children": {},
+            "bytesHere": 20530000,
+            "childrenTotalBytes": 0
+          },
+          "ITSupport218": {
+            "children": {},
+            "bytesHere": 21700000,
+            "childrenTotalBytes": 0
+          },
+          "ClaireStandardWorks": {
+            "children": {},
+            "bytesHere": 20400000,
+            "childrenTotalBytes": 0
+          },
+          "LLLCCostStudy": {
+            "children": {},
+            "bytesHere": 23210000,
+            "childrenTotalBytes": 0
+          },
+          "SCEVRFWhitepaper": {
+            "children": {},
+            "bytesHere": 2560000000,
+            "childrenTotalBytes": 0
+          },
+          "ADR-ABM": {
+            "children": {},
+            "bytesHere": 26020000,
+            "childrenTotalBytes": 0
+          },
+          "CAStatewidePOSFoodservice": {
+            "children": {},
+            "bytesHere": 24490000,
+            "childrenTotalBytes": 0
+          },
+          "Title20": {
+            "children": {},
+            "bytesHere": 21840000,
+            "childrenTotalBytes": 0
+          },
+          "NYBIQ": {
+            "children": {},
+            "bytesHere": 22760000,
+            "childrenTotalBytes": 0
+          },
+          "ITSupport75": {
+            "children": {},
+            "bytesHere": 27120000,
+            "childrenTotalBytes": 0
+          },
+          "MAChillerandVFDMarketAssessments": {
+            "children": {},
+            "bytesHere": 24000000,
+            "childrenTotalBytes": 0
+          },
+          "SearchTest": {
+            "children": {},
+            "bytesHere": 21950000,
+            "childrenTotalBytes": 0
+          },
+          "LancasterPhaseII": {
+            "children": {},
+            "bytesHere": 21860000,
+            "childrenTotalBytes": 0
+          },
+          "sptest": {
+            "children": {
+              "test": {
+                "children": {},
+                "bytesHere": 9910000,
+                "childrenTotalBytes": 0
+              },
+              "test2": {
+                "children": {},
+                "bytesHere": 11240000,
+                "childrenTotalBytes": 0
+              },
+              "chart": {
+                "children": {},
+                "bytesHere": 8570000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 107060000,
+            "childrenTotalBytes": 29720000
+          },
+          "SoCalOperations": {
+            "children": {},
+            "bytesHere": 1650000000,
+            "childrenTotalBytes": 0
+          },
+          "pwa": {
+            "children": {
+              "Project for Julie": {
+                "children": {},
+                "bytesHere": 174620,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 102190000,
+            "childrenTotalBytes": 174620
+          },
+          "ADRTo-Dos": {
+            "children": {},
+            "bytesHere": 27480000,
+            "childrenTotalBytes": 0
+          },
+          "TradeProConnect": {
+            "children": {},
+            "bytesHere": 22040000,
+            "childrenTotalBytes": 0
+          },
+          "GettingsetwithPlanner": {
+            "children": {},
+            "bytesHere": 21540000,
+            "childrenTotalBytes": 0
+          },
+          "nationalhvaccoordination": {
+            "children": {},
+            "bytesHere": 1660000000,
+            "childrenTotalBytes": 0
+          },
+          "OrangeOfficeAdmin": {
+            "children": {},
+            "bytesHere": 21910000,
+            "childrenTotalBytes": 0
+          },
+          "PGEADRProgram": {
+            "children": {},
+            "bytesHere": 29370000,
+            "childrenTotalBytes": 0
+          },
+          "PROWorkshopSeries-PlanningandDevelopment": {
+            "children": {},
+            "bytesHere": 51270000,
+            "childrenTotalBytes": 0
+          },
+          "ManageYourPower-StateofCalifornia": {
+            "children": {},
+            "bytesHere": 22090000,
+            "childrenTotalBytes": 0
+          },
+          "Title24NRProposal": {
+            "children": {},
+            "bytesHere": 23000000,
+            "childrenTotalBytes": 0
+          },
+          "DRBizDevObjective2017": {
+            "children": {},
+            "bytesHere": 23540000,
+            "childrenTotalBytes": 0
+          },
+          "swdev": {
+            "children": {},
+            "bytesHere": 22010000,
+            "childrenTotalBytes": 0
+          },
+          "DecarbonizationInitative": {
+            "children": {},
+            "bytesHere": 92110000,
+            "childrenTotalBytes": 0
+          },
+          "NYUpstreamBD": {
+            "children": {},
+            "bytesHere": 123200000,
+            "childrenTotalBytes": 0
+          },
+          "dlboston": {
+            "children": {},
+            "bytesHere": 27640000,
+            "childrenTotalBytes": 0
+          },
+          "RPP": {
+            "children": {
+              "NEAA": {
+                "children": {},
+                "bytesHere": 343770000,
+                "childrenTotalBytes": 0
+              },
+              "PGE": {
+                "children": {},
+                "bytesHere": 204550000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 4360000000,
+            "childrenTotalBytes": 548320000
+          },
+          "SpecPlan": {
+            "children": {},
+            "bytesHere": 21760000,
+            "childrenTotalBytes": 0
+          },
+          "VTA": {
+            "children": {},
+            "bytesHere": 37320000,
+            "childrenTotalBytes": 0
+          },
+          "SDGEMV": {
+            "children": {},
+            "bytesHere": 21260000,
+            "childrenTotalBytes": 0
+          },
+          "esappcatalog": {
+            "children": {},
+            "bytesHere": 26730000,
+            "childrenTotalBytes": 0
+          },
+          "MyTasks": {
+            "children": {},
+            "bytesHere": 21650000,
+            "childrenTotalBytes": 0
+          },
+          "ConferenceSolutionTaskForce": {
+            "children": {},
+            "bytesHere": 21990000,
+            "childrenTotalBytes": 0
+          },
+          "NEEAHVAC": {
+            "children": {},
+            "bytesHere": 21890000,
+            "childrenTotalBytes": 0
+          },
+          "PersonalToDo": {
+            "children": {},
+            "bytesHere": 27510000,
+            "childrenTotalBytes": 0
+          },
+          "southeastbd": {
+            "children": {},
+            "bytesHere": 27880000,
+            "childrenTotalBytes": 0
+          },
+          "OutreachandTradeAllyTeam": {
+            "children": {},
+            "bytesHere": 706330000,
+            "childrenTotalBytes": 0
+          },
+          "contentTypeHub": {
+            "children": {},
+            "bytesHere": 46850000,
+            "childrenTotalBytes": 0
+          },
+          "Onboarding2": {
+            "children": {},
+            "bytesHere": 21480000,
+            "childrenTotalBytes": 0
+          },
+          "PSEMidstreamHVACWH": {
+            "children": {},
+            "bytesHere": 21930000,
+            "childrenTotalBytes": 0
+          },
+          "federaladvocacygroup": {
+            "children": {},
+            "bytesHere": 29010000,
+            "childrenTotalBytes": 0
+          },
+          "BWP": {
+            "children": {},
+            "bytesHere": 31210000,
+            "childrenTotalBytes": 0
+          },
+          "nzec": {
+            "children": {},
+            "bytesHere": 31160000,
+            "childrenTotalBytes": 0
+          },
+          "Title242022-StakeholderEngagement": {
+            "children": {},
+            "bytesHere": 21140000,
+            "childrenTotalBytes": 0
+          },
+          "JessikasSite": {
+            "children": {},
+            "bytesHere": 28210000,
+            "childrenTotalBytes": 0
+          },
+          "TestPlan": {
+            "children": {},
+            "bytesHere": 28420000,
+            "childrenTotalBytes": 0
+          },
+          "salesforceteam": {
+            "children": {},
+            "bytesHere": 21910000,
+            "childrenTotalBytes": 0
+          },
+          "SDriveArchive": {
+            "children": {},
+            "bytesHere": 21830000,
+            "childrenTotalBytes": 0
+          },
+          "businessdevelopment": {
+            "children": {},
+            "bytesHere": 139580000,
+            "childrenTotalBytes": 0
+          },
+          "strategic_planning": {
+            "children": {},
+            "bytesHere": 29040000,
+            "childrenTotalBytes": 0
+          },
+          "culturecommittee": {
+            "children": {},
+            "bytesHere": 27380000,
+            "childrenTotalBytes": 0
+          },
+          "CAStatewideMarketing": {
+            "children": {},
+            "bytesHere": 36220000,
+            "childrenTotalBytes": 0
+          },
+          "BestBuyADR": {
+            "children": {},
+            "bytesHere": 21440000,
+            "childrenTotalBytes": 0
+          },
+          "NYPOS": {
+            "children": {},
+            "bytesHere": 43110000,
+            "childrenTotalBytes": 0
+          },
+          "Test": {
+            "children": {},
+            "bytesHere": 21660000,
+            "childrenTotalBytes": 0
+          },
+          "avtaproject": {
+            "children": {},
+            "bytesHere": 2090000000,
+            "childrenTotalBytes": 0
+          },
+          "MAHVACandHP": {
+            "children": {},
+            "bytesHere": 47430000,
+            "childrenTotalBytes": 0
+          },
+          "SoCalGasAppProcessing": {
+            "children": {},
+            "bytesHere": 22500000,
+            "childrenTotalBytes": 0
+          },
+          "NLCNon-EnergyBenefits": {
+            "children": {},
+            "bytesHere": 272740000,
+            "childrenTotalBytes": 0
+          },
+          "IndoorLPD": {
+            "children": {},
+            "bytesHere": 21370000,
+            "childrenTotalBytes": 0
+          },
+          "ThermostatSupplyChainMapping": {
+            "children": {},
+            "bytesHere": 22150000,
+            "childrenTotalBytes": 0
+          },
+          "MAGasMeasureMarketStudy": {
+            "children": {},
+            "bytesHere": 30210000,
+            "childrenTotalBytes": 0
+          },
+          "WholesaleMarketGroup": {
+            "children": {},
+            "bytesHere": 30840000,
+            "childrenTotalBytes": 0
+          },
+          "HR": {
+            "children": {},
+            "bytesHere": 21400000,
+            "childrenTotalBytes": 0
+          },
+          "SCEHVAC": {
+            "children": {},
+            "bytesHere": 41140000,
+            "childrenTotalBytes": 0
+          },
+          "PointofSaleInstantRebates": {
+            "children": {},
+            "bytesHere": 101450000,
+            "childrenTotalBytes": 0
+          },
+          "IrisProductManagment": {
+            "children": {},
+            "bytesHere": 21940000,
+            "childrenTotalBytes": 0
+          },
+          "SMUDOutreachProject": {
+            "children": {},
+            "bytesHere": 166770000,
+            "childrenTotalBytes": 0
+          },
+          "LancasterZNE": {
+            "children": {},
+            "bytesHere": 13260000000,
+            "childrenTotalBytes": 0
+          },
+          "MicrosoftTeams": {
+            "children": {},
+            "bytesHere": 27100000,
+            "childrenTotalBytes": 0
+          },
+          "NVEnergyResiAC": {
+            "children": {},
+            "bytesHere": 27390000,
+            "childrenTotalBytes": 0
+          },
+          "ManagingDirector": {
+            "children": {},
+            "bytesHere": 21420000,
+            "childrenTotalBytes": 0
+          },
+          "BusinessDevelopmentUpdates": {
+            "children": {},
+            "bytesHere": 21550000,
+            "childrenTotalBytes": 0
+          },
+          "UpstreamHVAC": {
+            "children": {},
+            "bytesHere": 29450000,
+            "childrenTotalBytes": 0
+          },
+          "PersonalPlanningandTaskManagement": {
+            "children": {},
+            "bytesHere": 27450000,
+            "childrenTotalBytes": 0
+          },
+          "MyTasks883": {
+            "children": {},
+            "bytesHere": 21720000,
+            "childrenTotalBytes": 0
+          },
+          "DukeEnergyMidstream": {
+            "children": {},
+            "bytesHere": 122870000,
+            "childrenTotalBytes": 0
+          },
+          "TestTeam": {
+            "children": {},
+            "bytesHere": 27400000,
+            "childrenTotalBytes": 0
+          },
+          "SustainabilityPlan": {
+            "children": {},
+            "bytesHere": 22180000,
+            "childrenTotalBytes": 0
+          },
+          "dl_businessservices": {
+            "children": {},
+            "bytesHere": 21940000,
+            "childrenTotalBytes": 0
+          },
+          "ISManagementTeam": {
+            "children": {},
+            "bytesHere": 28060000,
+            "childrenTotalBytes": 0
+          },
+          "dch": {
+            "children": {},
+            "bytesHere": 37430000,
+            "childrenTotalBytes": 0
+          },
+          "HVACEngineeringGroup": {
+            "children": {},
+            "bytesHere": 26330000,
+            "childrenTotalBytes": 0
+          },
+          "2022T24Coordination": {
+            "children": {},
+            "bytesHere": 24300000,
+            "childrenTotalBytes": 0
+          },
+          "Onboarding86": {
+            "children": {},
+            "bytesHere": 21960000,
+            "childrenTotalBytes": 0
+          },
+          "AlzugarayGeneral": {
+            "children": {},
+            "bytesHere": 45980000,
+            "childrenTotalBytes": 0
+          },
+          "PGEUpstreamLighting": {
+            "children": {},
+            "bytesHere": 50620000,
+            "childrenTotalBytes": 0
+          },
+          "IndoorLightingControlsCCSR": {
+            "children": {},
+            "bytesHere": 28030000,
+            "childrenTotalBytes": 0
+          },
+          "CompliancePolicyCenter": {
+            "children": {},
+            "bytesHere": 26800000,
+            "childrenTotalBytes": 0
+          },
+          "Strategy6": {
+            "children": {},
+            "bytesHere": 28460000,
+            "childrenTotalBytes": 0
+          },
+          "CRRC20thAnniversaryCelebration": {
+            "children": {},
+            "bytesHere": 42070000,
+            "childrenTotalBytes": 0
+          },
+          "SCEAppProcessing": {
+            "children": {},
+            "bytesHere": 44190000,
+            "childrenTotalBytes": 0
+          },
+          "HewsonTest": {
+            "children": {},
+            "bytesHere": 21330000,
+            "childrenTotalBytes": 0
+          },
+          "ClientTest": {
+            "children": {},
+            "bytesHere": 21800000,
+            "childrenTotalBytes": 0
+          },
+          "techtoutilities": {
+            "children": {},
+            "bytesHere": 104560000,
+            "childrenTotalBytes": 0
+          },
+          "MonthlyNEMUpdates": {
+            "children": {},
+            "bytesHere": 21890000,
+            "childrenTotalBytes": 0
+          },
+          "inquiry": {
+            "children": {},
+            "bytesHere": 21880000,
+            "childrenTotalBytes": 0
+          },
+          "EnergizeConnecticut": {
+            "children": {},
+            "bytesHere": 81360000,
+            "childrenTotalBytes": 0
+          },
+          "LEDA": {
+            "children": {},
+            "bytesHere": 28350000,
+            "childrenTotalBytes": 0
+          },
+          "ASWBTransition": {
+            "children": {},
+            "bytesHere": 21880000,
+            "childrenTotalBytes": 0
+          },
+          "TestProject": {
+            "children": {},
+            "bytesHere": 21320000,
+            "childrenTotalBytes": 0
+          },
+          "Testing": {
+            "children": {},
+            "bytesHere": 20320000,
+            "childrenTotalBytes": 0
+          },
+          "LADWP": {
+            "children": {},
+            "bytesHere": 28430000,
+            "childrenTotalBytes": 0
+          },
+          "PortableACs": {
+            "children": {},
+            "bytesHere": 67970000,
+            "childrenTotalBytes": 0
+          },
+          "RyanTasks": {
+            "children": {},
+            "bytesHere": 29840000,
+            "childrenTotalBytes": 0
+          },
+          "RPPHub": {
+            "children": {},
+            "bytesHere": 43160000,
+            "childrenTotalBytes": 0
+          },
+          "ToDo-AllPograms": {
+            "children": {},
+            "bytesHere": 22980000,
+            "childrenTotalBytes": 0
+          },
+          "Testplanner": {
+            "children": {},
+            "bytesHere": 22940000,
+            "childrenTotalBytes": 0
+          },
+          "conferencesandmemberships": {
+            "children": {},
+            "bytesHere": 23180000,
+            "childrenTotalBytes": 0
+          },
+          "monitor": {
+            "children": {},
+            "bytesHere": 22870000,
+            "childrenTotalBytes": 0
+          },
+          "irisdevandrelease": {
+            "children": {},
+            "bytesHere": 21940000,
+            "childrenTotalBytes": 0
+          },
+          "SCEPM": {
+            "children": {},
+            "bytesHere": 38800000,
+            "childrenTotalBytes": 0
+          },
+          "GasEngineeringOrganization": {
+            "children": {},
+            "bytesHere": 46240000,
+            "childrenTotalBytes": 0
+          },
+          "NYSERDATransformativeWave": {
+            "children": {},
+            "bytesHere": 855100000,
+            "childrenTotalBytes": 0
+          },
+          "isleadership": {
+            "children": {},
+            "bytesHere": 29940000,
+            "childrenTotalBytes": 0
+          },
+          "manageyourpower": {
+            "children": {},
+            "bytesHere": 27430000,
+            "childrenTotalBytes": 0
+          },
+          "CFS": {
+            "children": {},
+            "bytesHere": 46830000,
+            "childrenTotalBytes": 0
+          },
+          "Finance": {
+            "children": {},
+            "bytesHere": 22900000,
+            "childrenTotalBytes": 0
+          },
+          "Onboarding35": {
+            "children": {},
+            "bytesHere": 22420000,
+            "childrenTotalBytes": 0
+          },
+          "FieldDataCollectionPlan": {
+            "children": {},
+            "bytesHere": 2190000000,
+            "childrenTotalBytes": 0
+          },
+          "salesforcephaseone": {
+            "children": {},
+            "bytesHere": 27540000,
+            "childrenTotalBytes": 0
+          },
+          "csteam": {
+            "children": {},
+            "bytesHere": 22770000,
+            "childrenTotalBytes": 0
+          },
+          "Travisto-dos": {
+            "children": {},
+            "bytesHere": 22260000,
+            "childrenTotalBytes": 0
+          },
+          "MARIPOS": {
+            "children": {},
+            "bytesHere": 53630000,
+            "childrenTotalBytes": 0
+          },
+          "JETT20": {
+            "children": {},
+            "bytesHere": 23290000,
+            "childrenTotalBytes": 0
+          },
+          "EngSengsComprehensiveTaskList": {
+            "children": {},
+            "bytesHere": 23100000,
+            "childrenTotalBytes": 0
+          },
+          "PersonalTasks": {
+            "children": {},
+            "bytesHere": 27560000,
+            "childrenTotalBytes": 0
+          },
+          "nerd": {
+            "children": {},
+            "bytesHere": 575050000,
+            "childrenTotalBytes": 0
+          },
+          "TheWattStreetJournal": {
+            "children": {},
+            "bytesHere": 368900000,
+            "childrenTotalBytes": 0
+          },
+          "PersonalProjectPlan": {
+            "children": {},
+            "bytesHere": 22550000,
+            "childrenTotalBytes": 0
+          },
+          "Onboarding83": {
+            "children": {},
+            "bytesHere": 28720000,
+            "childrenTotalBytes": 0
+          },
+          "BuildingIQ": {
+            "children": {},
+            "bytesHere": 26740000,
+            "childrenTotalBytes": 0
+          },
+          "MassRIWaterHeaters": {
+            "children": {},
+            "bytesHere": 73500000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "childrenTotalBytes": 277844279790
+      },
+      "teams": {
+        "children": {
+          "extranet": {
+            "children": {
+              "federal-clothes-dryers-workspace": {
+                "children": {},
+                "bytesHere": 814020000,
+                "childrenTotalBytes": 0
+              },
+              "sp-test": {
+                "children": {},
+                "bytesHere": 8210000,
+                "childrenTotalBytes": 0
+              },
+              "pse-hvac-water": {
+                "children": {},
+                "bytesHere": 9040000,
+                "childrenTotalBytes": 0
+              },
+              "2019-impact-evaluation": {
+                "children": {},
+                "bytesHere": 1350000000,
+                "childrenTotalBytes": 0
+              },
+              "ms-temp": {
+                "children": {},
+                "bytesHere": 10050000,
+                "childrenTotalBytes": 0
+              },
+              "tub-spout-testing": {
+                "children": {},
+                "bytesHere": 402050000,
+                "childrenTotalBytes": 0
+              },
+              "erisa": {
+                "children": {},
+                "bytesHere": 45610000,
+                "childrenTotalBytes": 0
+              },
+              "t20-lpm": {
+                "children": {},
+                "bytesHere": 389490000,
+                "childrenTotalBytes": 0
+              },
+              "MARIHVAC": {
+                "children": {},
+                "bytesHere": 104820000,
+                "childrenTotalBytes": 0
+              },
+              "help": {
+                "children": {},
+                "bytesHere": 20470000,
+                "childrenTotalBytes": 0
+              },
+              "nh-up-ltg": {
+                "children": {},
+                "bytesHere": 11060000,
+                "childrenTotalBytes": 0
+              },
+              "sce-chiller-modeling": {
+                "children": {},
+                "bytesHere": 20770000,
+                "childrenTotalBytes": 0
+              },
+              "bridge-bank": {
+                "children": {},
+                "bytesHere": 18610000,
+                "childrenTotalBytes": 0
+              },
+              "review-dashboard": {
+                "children": {},
+                "bytesHere": 8750000,
+                "childrenTotalBytes": 0
+              },
+              "statewide-et": {
+                "children": {},
+                "bytesHere": 37130000,
+                "childrenTotalBytes": 0
+              },
+              "dte-midstream": {
+                "children": {},
+                "bytesHere": 1330000000,
+                "childrenTotalBytes": 0
+              },
+              "energize-ct-upstream": {
+                "children": {},
+                "bytesHere": 365660000,
+                "childrenTotalBytes": 0
+              },
+              "T24-2022": {
+                "children": {},
+                "bytesHere": 5030000000,
+                "childrenTotalBytes": 0
+              },
+              "scg-isp-studies": {
+                "children": {},
+                "bytesHere": 57470000,
+                "childrenTotalBytes": 0
+              },
+              "federal": {
+                "children": {
+                  "InfowiseSmartChartProApp": {
+                    "children": {},
+                    "bytesHere": 210660,
+                    "childrenTotalBytes": 0
+                  }
+                },
+                "bytesHere": 221270000,
+                "childrenTotalBytes": 210660
+              },
+              "opuc": {
+                "children": {},
+                "bytesHere": 678330000,
+                "childrenTotalBytes": 0
+              },
+              "sp-testing": {
+                "children": {},
+                "bytesHere": 9210000,
+                "childrenTotalBytes": 0
+              },
+              "EWP": {
+                "children": {},
+                "bytesHere": 16500000,
+                "childrenTotalBytes": 0
+              },
+              "rpp-hub": {
+                "children": {},
+                "bytesHere": 168360000,
+                "childrenTotalBytes": 0
+              },
+              "neea-study": {
+                "children": {},
+                "bytesHere": 8750000,
+                "childrenTotalBytes": 0
+              },
+              "hvac-monitoring": {
+                "children": {},
+                "bytesHere": 92330000,
+                "childrenTotalBytes": 0
+              },
+              "pwa": {
+                "children": {},
+                "bytesHere": 71750000,
+                "childrenTotalBytes": 0
+              },
+              "natgrid-ny-pos-fs": {
+                "children": {},
+                "bytesHere": 219450000,
+                "childrenTotalBytes": 0
+              },
+              "aswb-es": {
+                "children": {},
+                "bytesHere": 339430000,
+                "childrenTotalBytes": 0
+              },
+              "T20": {
+                "children": {},
+                "bytesHere": 203380000,
+                "childrenTotalBytes": 0
+              },
+              "socalupstream": {
+                "children": {},
+                "bytesHere": 301490000,
+                "childrenTotalBytes": 0
+              },
+              "strategic-coord-support": {
+                "children": {},
+                "bytesHere": 9300000,
+                "childrenTotalBytes": 0
+              },
+              "veic": {
+                "children": {},
+                "bytesHere": 382700000,
+                "childrenTotalBytes": 0
+              },
+              "MARIHVACADMIN": {
+                "children": {},
+                "bytesHere": 971000000,
+                "childrenTotalBytes": 0
+              },
+              "tpc-duke-energy": {
+                "children": {},
+                "bytesHere": 13020000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "bytesHere": 66980000,
+            "childrenTotalBytes": 13739690660
+          },
+          "cal-op-ace": {
+            "children": {},
+            "bytesHere": 42650000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "childrenTotalBytes": 13849320660
+      },
+      "portals": {
+        "children": {
+          "Holiday-Party-Videos": {
+            "children": {},
+            "bytesHere": 2120000000,
+            "childrenTotalBytes": 0
+          },
+          "ES-Holiday-Party": {
+            "children": {},
+            "bytesHere": 930630000,
+            "childrenTotalBytes": 0
+          },
+          "hub": {
+            "children": {},
+            "bytesHere": 25100000,
+            "childrenTotalBytes": 0
+          },
+          "personal": {
+            "children": {
+              "ccheuk": {
+                "children": {},
+                "bytesHere": 20470000,
+                "childrenTotalBytes": 0
+              }
+            },
+            "childrenTotalBytes": 20470000
+          },
+          "Channel-Test": {
+            "children": {},
+            "bytesHere": 62770000,
+            "childrenTotalBytes": 0
+          },
+          "community": {
+            "children": {},
+            "bytesHere": 20330000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "childrenTotalBytes": 3179300000
+      },
+      "pwa": {
+        "children": {},
+        "bytesHere": 82700000,
+        "childrenTotalBytes": 0
+      },
+      "tm": {
+        "children": {
+          "finance": {
+            "children": {},
+            "bytesHere": 9180000000,
+            "childrenTotalBytes": 0
+          },
+          "it": {
+            "children": {},
+            "bytesHere": 252200000,
+            "childrenTotalBytes": 0
+          },
+          "ies": {
+            "children": {},
+            "bytesHere": 520760000,
+            "childrenTotalBytes": 0
+          },
+          "leadership": {
+            "children": {},
+            "bytesHere": 107420000,
+            "childrenTotalBytes": 0
+          },
+          "policy-ratings": {
+            "children": {},
+            "bytesHere": 6500000000,
+            "childrenTotalBytes": 0
+          },
+          "management": {
+            "children": {},
+            "bytesHere": 164450000,
+            "childrenTotalBytes": 0
+          },
+          "bs": {
+            "children": {},
+            "bytesHere": 376410000,
+            "childrenTotalBytes": 0
+          },
+          "data-science": {
+            "children": {},
+            "bytesHere": 338790000,
+            "childrenTotalBytes": 0
+          },
+          "EEDG": {
+            "children": {},
+            "bytesHere": 96010000,
+            "childrenTotalBytes": 0
+          },
+          "is": {
+            "children": {},
+            "bytesHere": 712870000,
+            "childrenTotalBytes": 0
+          },
+          "finance-hr": {
+            "children": {},
+            "bytesHere": 51760000,
+            "childrenTotalBytes": 0
+          },
+          "products-strategy": {
+            "children": {},
+            "bytesHere": 598590000,
+            "childrenTotalBytes": 0
+          },
+          "ee": {
+            "children": {},
+            "bytesHere": 9430000000,
+            "childrenTotalBytes": 0
+          },
+          "ops": {
+            "children": {},
+            "bytesHere": 4600000000,
+            "childrenTotalBytes": 0
+          },
+          "der": {
+            "children": {},
+            "bytesHere": 2600000000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "bytesHere": 69790000,
+        "childrenTotalBytes": 35529260000
+      },
+      "https:": {
+        "children": {
+          "energysolutionsonline-admin.sharepoint.com": {
+            "children": {},
+            "bytesHere": 36700000,
+            "childrenTotalBytes": 0
+          }
+        },
+        "childrenTotalBytes": 36700000
+      },
+      "18 1662 V3": {
+        "children": {},
+        "bytesHere": 6380000,
+        "childrenTotalBytes": 0
+      }
+    },
+    "bytesHere": 1680000000,
+    "childrenTotalBytes": 556198100450
+  }
+}
