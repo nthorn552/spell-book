@@ -1,1 +1,6 @@
-Use RegEx `"snapshots"\:\[(\{"snapshotId":[0-9]*\},?)*],` to remove unnecessary data
+Go to Client SaaS Protection Dashboard
+Go to SharePoint -> Sites
+Open Chrome Debugger, go to Network tab, clear all and then capture request for "next page" of site data.
+Copy request as fetch, paste into chrome console, and edit length from =20 to=###, however large the number needs to be to capture all sites.  Send
+Copy response object into text editor.
+Use RegEx `"snapshots"\:\[(\{"snapshotId":[0-9]*\},?)*],` to remove unnecessary data.
