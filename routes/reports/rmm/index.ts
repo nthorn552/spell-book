@@ -2,36 +2,35 @@ import express, { Request, Response } from "express";
 import axios from "axios";
 const router = express.Router();
 
-type DuplicateRequest = Request & {
-  params: {
-    site?: string;
-  };
-};
+import config from "../../../config";
+import getDuplicates from "./duplicates";
 
-router.get("/duplicates", (req: DuplicateRequest, res) => {
-  let result = "no result";
+router.post("/auth", (req: Request, res: Response) => {
+  console.log("auth start");
 
   axios
-    .get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
-    .then(response => {
-      console.log(response.data.url);
-      console.log(response.data.explanation);
+    .request({
+      url: "/auth/oauth/token",
+      method: "post",
+      baseURL: config.rmm.host,
+      auth: {
+        username: "public-client",
+        password: "public"
+      },
+      data: {
+        grant_type: "authorization_code"
+      }
     })
-    .catch(error => {
-      console.log(error);
-    });
-
-  axios
-    .get("https://zinfandel-api.centrastage.net/api/v2/account/devices")
-    .then(response => {
-      console.log(response.data);
+    .then(function(res) {
+      console.log(res);
+      console.log("auth complete");
     })
-    .catch(error => {
-      console.log(error);
+    .catch(function(error) {
+      console.log(res);
+      console.log("auth error");
     });
-
-  console.log(result);
-  //   res.json({ test: "result" });
+  res.json({ test: "complete" });
 });
+router.get("/duplicates", getDuplicates);
 
 export default router;
