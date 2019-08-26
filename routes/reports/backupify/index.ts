@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express";
+import express, { Request, Response, NextFunction } from "express";
 const router = express.Router();
 
 import fs from "fs";
@@ -52,7 +52,7 @@ type BackupifyRequest = Request & {
   };
 };
 
-router.get("/", (req: BackupifyRequest, res) => {
+router.get("/", (req: BackupifyRequest, res: Response, next: NextFunction) => {
   let rawData = JSON.parse(
     fs.readFileSync("./assets/dattoStrip.json", "utf-8")
   );
