@@ -24,6 +24,9 @@ type Device = {
   operatingSystem: string;
   siteName: string;
   siteUid: string;
+  anitvirus?: {};
+  patchManagement?: {};
+  udf?: {};
 };
 
 type DeviceResponseData = {
@@ -40,50 +43,63 @@ async function getDuplicates(
 ) {
   const totalDeviceList = await fetchAllDevices();
   const duplicateList = findDuplicateDevices(totalDeviceList);
-  const hostnameList: string[] = [];
-  let duplicateCount = 0;
-  duplicateList.forEach(device => {
-    duplicateCount++;
-    hostnameList.push(device.hostname);
-  });
   res.json({
     devices: duplicateList,
-    summary: hostnameList,
-    count: duplicateCount
+    summary: createSummaryFromDuplicateList(duplicateList),
+    count: duplicateList.length
   });
 }
 
 async function fetchAllDevices(): Promise<Device[]> {
   const rawDeviceList: Device[] = [];
   let nextPageUrl = config.rmm.apiRootUrl + "/v2/account/devices";
-  console.log(nextPageUrl);
   while (nextPageUrl) {
+    console.info("Fetching page from RMM:" + nextPageUrl);
     let response: AxiosResponse<DeviceResponseData> = await axios.get(
       nextPageUrl
     );
     nextPageUrl = response.data.pageDetails.nextPageUrl;
     rawDeviceList.push(...response.data.devices);
-    console.log(nextPageUrl);
   }
   return rawDeviceList;
 }
 
-function findDuplicateDevices(deviceList: Device[]) {
-  const duplicates: Device[] = [];
-  const deviceMap: Record<string, number> = {};
+function findDuplicateDevices(deviceList: Device[]): [Device[]?] {
+  // Separate devices by combined key of Hostname and Site UID
+  const uniqueDeviceMap: Map<string, Device[]> = new Map<string, Device[]>();
   deviceList
     .filter(device => !device.deleted)
     .forEach(device => {
-      if (deviceMap[device.hostname]) {
-        // TODO: update to check that hostname unique at site only
-        deviceMap[device.hostname]++;
-        device;
-        duplicates.push(device);
-      } else {
-        deviceMap[device.hostname] = 1;
+      let identifier = device.hostname + device.siteUid;
+      if (!uniqueDeviceMap.get(identifier)) {
+        uniqueDeviceMap.set(identifier, []);
       }
+      delete device.patchManagement;
+      delete device.udf;
+      uniqueDeviceMap.get(identifier).push(device);
     });
+  // Find all cases where number of matching devices is >1
+  const duplicates: [Device[]?] = [];
+  uniqueDeviceMap.forEach(matchingDevices => {
+    if (matchingDevices.length > 1) {
+      duplicates.push(matchingDevices.slice());
+    }
+  });
   return duplicates;
+}
+
+function createSummaryFromDuplicateList(
+  duplicateList: [Device[]?]
+): Record<string, string[]> {
+  const summaryList: Record<string, string[]> = {};
+  duplicateList.forEach(deviceList => {
+    let device = deviceList[0];
+    if (!summaryList[device.siteName]) {
+      summaryList[device.siteName] = [];
+    }
+    summaryList[device.siteName].push(device.hostname);
+  });
+  return summaryList;
 }
 
 export default getDuplicates;
