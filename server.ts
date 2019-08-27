@@ -1,13 +1,12 @@
 import express from "express";
-import { Entity } from "./schemas/entity";
 
 import rootRouter from "./routes";
+import config from "./config";
 
 const app = express();
 
 app.use("/", rootRouter);
 
-const PORT = process.env.PORT || 8082;
-app.listen(PORT, function() {
-  console.log("Production Express server running at localhost:" + PORT);
+app.listen(config.port, function() {
+  console.log("Production Express server running at localhost:" + config.port);
 });
