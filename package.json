@@ -11,12 +11,14 @@
   "author": "1%titanium",
   "license": "ISC",
   "dependencies": {
+    "@types/node-powershell": "^3.1.0",
     "axios": "^0.19.0",
     "axios-token-interceptor": "^0.1.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.4",
+    "node-powershell": "^4.0.0",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
