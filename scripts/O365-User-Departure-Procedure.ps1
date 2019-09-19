@@ -3,8 +3,10 @@
     [string]$adminPassword = $(throw "-adminPassword is required."),    
     [string]$targetUsername = $(throw "-targetUsername is required."),
     [string]$newPassword = "HellowWorld123!",
-    [switch]$shouldLockUser = $false
+    [switch]$shouldLockAccount = $false
 )
+
+Write-Host " --- O365-User-Departure-Procedure started --- "
 
 if (Get-Module -ListAvailable -Name AzureAD) {
     Write-Host "AzureAD exists"
@@ -23,7 +25,7 @@ $TargetUser = $null
 
 try {
     Connect-AzureAD -Credential $AdminCred | Out-Null
-    Write-Host "Conntected to AzureAD"
+    Write-Host "Connected to AzureAD"
 }
 catch {
     Write-Host "Failed to connect to AzureAD"
@@ -46,7 +48,7 @@ catch {
     Write-Host "Failed to set user password"
 }
 
-if ($shouldLockUser -eq $true) {
+if ($shouldLockAccount) {
     try {
         Write-Host "Locking user account"
         $TargetUser | Set-AzureADUser -AccountEnabled $false
@@ -62,4 +64,4 @@ else {
 $TargetUser = Get-AzureADUser -ObjectId $targetUsername
 Write-Host $targetUsername "("$TargetUser.DisplayName") account is currently" $(If ($TargetUser.AccountEnabled -eq $false) { "blocked" } Else { "active" }) 
 
-Write-Host " --- Script complete --- "
+Write-Host " --- O365-User-Departure-Procedure complete --- "
