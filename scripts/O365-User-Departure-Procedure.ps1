@@ -1,12 +1,11 @@
 ﻿param (
-    [string]$AdminUsername = $(throw "-AdminUsername is required."), 
-    [string]$AdminPassword = $(throw "-AdminPassword is required."),    
-    [string]$Username = $(throw "-Username is required."),
-    [string]$NewPassword = "HellowWorld1!",
-    [switch]$ShouldLockUser = $false
+    [string]$adminUsername = $(throw "-adminUsername is required."), 
+    [string]$adminPassword = $(throw "-adminPassword is required."),    
+    [string]$targetUsername = $(throw "-targetUsername is required."),
+    [string]$newPassword = "HellowWorld123!",
+    [switch]$shouldLockUser = $false
 )
 
-Write-Host (Get-Host | Select-Object Version)
 if (Get-Module -ListAvailable -Name AzureAD) {
     Write-Host "AzureAD exists"
     Import-Module AzureAD
@@ -17,29 +16,37 @@ else {
     Import-Module AzureAD
 }
 
-$AdminPasswordSecure = ConvertTo-SecureString -String $AdminPassword -AsPlainText -Force
-$NewPasswordSecure = ConvertTo-SecureString -String $NewPassword -AsPlainText -Force
-$AdminCred = New-Object System.Management.Automation.PSCredential $AdminUsername, $AdminPasswordSecure
-$Admin = Connect-AzureAD -Credential $AdminCred
+$AdminPasswordSecure = ConvertTo-SecureString -String $adminPassword -AsPlainText -Force
+$NewPasswordSecure = ConvertTo-SecureString -String $newPassword -AsPlainText -Force
+$AdminCred = New-Object System.Management.Automation.PSCredential $adminUsername, $AdminPasswordSecure
 $TargetUser = $null
 
 try {
-    $TargetUser = Get-AzureADUser -ObjectId $Username
+    Connect-AzureAD -Credential $AdminCred | Out-Null
+    Write-Host "Conntected to AzureAD"
 }
 catch {
-    Write-Host "User" $Username "not found"
+    Write-Host "Failed to connect to AzureAD"
+    Exit
+}
+
+try {
+    $TargetUser = Get-AzureADUser -ObjectId $targetUsername
+}
+catch {
+    Write-Host "User" $targetUsername "not found"
     Exit
 }
     
 try {
-    Set-AzureADUserPassword -ObjectId $Username -Password $NewPasswordSecure
+    Set-AzureADUserPassword -ObjectId $targetUsername -Password $NewPasswordSecure
     Write-Host "Password updated successfully" 
 }
 catch {
     Write-Host "Failed to set user password"
 }
 
-if ($ShouldLockUser -eq $true) {
+if ($shouldLockUser -eq $true) {
     try {
         Write-Host "Locking user account"
         $TargetUser | Set-AzureADUser -AccountEnabled $false
@@ -52,7 +59,7 @@ if ($ShouldLockUser -eq $true) {
 else {
     Write-Host "Not locking user account"    
 }
-$TargetUser = Get-AzureADUser -ObjectId $Username
-Write-Host $Username "("$TargetUser.DisplayName") account is currently" $(If ($TargetUser.AccountEnabled -eq $false) { "blocked" } Else { "active" }) 
+$TargetUser = Get-AzureADUser -ObjectId $targetUsername
+Write-Host $targetUsername "("$TargetUser.DisplayName") account is currently" $(If ($TargetUser.AccountEnabled -eq $false) { "blocked" } Else { "active" }) 
 
 Write-Host " --- Script complete --- "

@@ -20,6 +20,7 @@
     "mongoose": "^5.6.4",
     "ncp": "^2.0.0",
     "node-powershell": "^4.0.0",
+    "node-scheduler": "^1.0.0",
     "typescript": "^3.5.3"
   },
   "devDependencies": {

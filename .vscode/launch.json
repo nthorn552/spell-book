@@ -12,6 +12,16 @@
       "request": "attach",
       "name": "Attach to Spell Book",
       "processId": "${command:PickProcess}"
+    },
+    {
+      "name": "Server Debug",
+      "type": "node",
+      "request": "launch",
+      "args": ["${workspaceRoot}/server.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
     }
   ]
 }
