@@ -2,21 +2,20 @@
     [string]$adminUsername = $(throw "-adminUsername is required."), 
     [string]$adminPassword = $(throw "-adminPassword is required."),    
     [string]$targetUsername = $(throw "-targetUsername is required."),
-    [string]$newPassword = "HelloWorld123!",
-    [switch]$shouldLockAccount = $false
+    [string]$newPassword = $(throw "-newPassword is required.")
 )
 
 Write-Host " --- O365-User-Departure-Procedure started --- "
 
 if (Get-Module -ListAvailable -Name AzureAD) {
     Write-Host "AzureAD exists"
-    Import-Module AzureAD
 }
 else {
     Write-Host "AzureAD did not exist"
     Install-Module AzureAD -Force -SkipPublisherCheck
     Import-Module AzureAD
 }
+Import-Module AzureAD
 
 $AdminPasswordSecure = ConvertTo-SecureString -String $adminPassword -AsPlainText -Force
 $NewPasswordSecure = ConvertTo-SecureString -String $newPassword -AsPlainText -Force

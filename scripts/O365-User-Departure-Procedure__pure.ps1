@@ -8,23 +8,15 @@
 
 Write-Host " --- O365-User-Departure-Procedure started --- "
 
-if (Get-Module -ListAvailable -Name AzureAD) {
-    Write-Host "AzureAD exists"
-    Import-Module AzureAD
-}
-else {
-    Write-Host "AzureAD did not exist"
-    Install-Module AzureAD -Force -SkipPublisherCheck
-    Import-Module AzureAD
-}
-
 $AdminPasswordSecure = ConvertTo-SecureString -String $adminPassword -AsPlainText -Force
 $NewPasswordSecure = ConvertTo-SecureString -String $newPassword -AsPlainText -Force
 $AdminCred = New-Object System.Management.Automation.PSCredential $adminUsername, $AdminPasswordSecure
 $TargetUser = $null
 
 try {
-    Connect-AzureAD -Credential $AdminCred | Out-Null
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell/ -Credential $AdminCred -Authentication Basic -AllowRedirection
+    Set-ExecutionPolicy RemoteSigned
+    Import-PSSession $Session
     Write-Host "Connected to AzureAD"
 }
 catch {
@@ -33,15 +25,16 @@ catch {
 }
 
 try {
-    $TargetUser = Get-AzureADUser -ObjectId $targetUsername
+    $TargetUser = Get-Mailbox -Identity $targetUsername
 }
 catch {
     Write-Host "User" $targetUsername "not found"
+    Remove-PSSession $Session
     Exit
 }
     
 try {
-    Set-AzureADUserPassword -ObjectId $targetUsername -Password $NewPasswordSecure
+    $TargetUser | Set-Mailbox -Password $NewPasswordSecure
     Write-Host "Password updated successfully" 
 }
 catch {
@@ -51,7 +44,7 @@ catch {
 if ($shouldLockAccount) {
     try {
         Write-Host "Locking user account"
-        $TargetUser | Set-AzureADUser -AccountEnabled $false
+        Set-Mailbox -Identity $targetUsername -AccountDisabled $true -Confirm:$false
         Write-Host "Account lock successful"
     }
     catch {
@@ -62,6 +55,7 @@ else {
     Write-Host "Not locking user account"    
 }
 
-$TargetUser = Get-AzureADUser -ObjectId $targetUsername
+$TargetUser = Get-Mailbox -Identity $targetUsername
+Remove-PSSession $Session
 Write-Host $targetUsername "("$TargetUser.DisplayName") account is currently" $(If ($TargetUser.AccountEnabled -eq $false) { "blocked" } Else { "active" }) 
 Write-Host " --- O365-User-Departure-Procedure complete --- "

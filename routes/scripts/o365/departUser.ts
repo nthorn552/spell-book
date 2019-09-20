@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express";
+import path from "path";
 import Shell from "node-powershell";
 
 const runScript = function(
@@ -35,8 +36,9 @@ const departUser = function(req: Request, res: Response, next: NextFunction) {
     scriptParams.push({ shouldLockAccount: "" });
   }
   //TODO: req.body.timeToExecute
-  const scriptPath =
-    "C:\\Users\\nate\\Projects\\spell-book\\scripts\\O365-User-Departure-Procedure.ps1"; //TODO: move to dist
+  const scriptPath = path.resolve(
+    "./scripts/O365-User-Departure-Procedure.ps1"
+  );
 
   runScript(scriptPath, scriptParams)
     .then(output => {
