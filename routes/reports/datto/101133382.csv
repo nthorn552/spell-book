@@ -1,0 +1,55 @@
+invoiceNumber,ClientName,PONumber,Hostname,SerialNumber,Product,ConfirmedDate,ItemDescription,Quantity,Price
+101133382,Energy Solutions,,ESDatto,00012e58cc0b,LT150,2019-04-01 00:49:09,Month of  ALTO (LT150) Service for device ESDatto with serial 00012e58cc0b - 121.33GB offsite,1,69.00
+101133382,Lorin Hill Architect,,LorinHillAlto,00012e58b569,LT150,2019-04-01 00:49:09,Month of  Datto Cloud Service for device LorinHillAlto with serial 00012e58b569 for 1 agents (1 Year Retention) - 831.89GB offsite,1,79.00
+101133382,Mark Olson Electric,,MOEALTO2,00012e6770cd,LT150,2019-04-01 00:49:09,Month of  Datto Cloud Service for device MOEALTO2 with serial 00012e6770cd for 1 agents (1 Year Retention) - 773.69GB offsite,1,79.00
+101133382,,,,,LT150,2019-04-01 00:49:09,Month of  Datto Cloud Service for device BTAALTO2 with serial 00012e67420c for 1 agents (1 Year Retention) - 821.82GB offsite,1,79.00
+101133382,,,ARCSOURCEBDR522,e0d55ea59922,S3B1000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR522 with serial e0d55ea59922 (1 Year Retention) - 1.16TB offsite,1,219.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR522 with serial e0d55ea59922,1,-76.65
+101133382,ArcSource Alpha,,ARCSOURCEBDR507,e0d55ea596de,S3B1000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR507 with serial e0d55ea596de (1 Year Retention) - 773.21GB offsite,1,219.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR507 with serial e0d55ea596de,1,-76.65
+101133382,Lorin Hill Architect,,ARCSOURCEBDR501,78f29e91330b,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR501 with serial 78f29e91330b for 1 agents (1 Year Retention) - 2.25TB offsite,1,79.00
+101133382,,,,,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR502 with serial e0d55ea6c008 (1 Year Retention) - 2.81TB offsite,1,379.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR502 with serial e0d55ea6c008,1,-132.65
+101133382,Ogrydziak/Prillinger Architects,,ARCSOURCEBDR518,e0d55ea6ba1d,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR518 with serial e0d55ea6ba1d (1 Year Retention) - 2.78TB offsite,1,379.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR518 with serial e0d55ea6ba1d,1,-132.65
+101133382,Andrew Skurman Architects,,ARCSOURCEBDR514,d05099d06e7b,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR514 with serial d05099d06e7b (1 Year Retention) - 3.08TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR514 with serial d05099d06e7b,1,-157.15
+101133382,AXIS/GFA Architecture + Design,,ARCSOURCEBDR512,d05099d06e77,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR512 with serial d05099d06e77 (1 Year Retention) - 3.29TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR512 with serial d05099d06e77,1,-157.15
+101133382,Stanton Architecture,,ARCSOURCEBDR521,d05099d064d9,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR521 with serial d05099d064d9 (1 Year Retention) - 2.73TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR521 with serial d05099d064d9,1,-157.15
+101133382,Cheng Design,,ARCSOURCEBDR513,d05099d06ef7,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR513 with serial d05099d06ef7 (1 Year Retention) - 2.32TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR513 with serial d05099d06ef7,1,-157.15
+101133382,Verner Architects,,ARCSOURCEBDR506,78f29e914374,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR506 with serial 78f29e914374 for 1 agents (1 Year Retention) - 563.14MB offsite,1,79.00
+101133382,Lowney Architecture,,ARCSOURCEBDR510,d05099d06ecb,S3P10000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR510 with serial d05099d06ecb (1 Year Retention) - 6.21TB offsite,1,799.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR510 with serial d05099d06ecb,1,-279.65
+101133382,Aleck Wilson Architects,,ARCSOURCEBDR503,78f29e9145ae,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR503 with serial 78f29e9145ae for 1 agents (1 Year Retention) - 1.68TB offsite,1,79.00
+101133382,Burks Toma Architects,,ARCSOURCEBDR505,78f29e91445d,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR505 with serial 78f29e91445d for 1 agents (1 Year Retention) - 1.81TB offsite,1,79.00
+101133382,Regan Baker Design,,ARCSOURCEBDR504,78f29e91456d,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR504 with serial 78f29e91456d for 1 agents (1 Year Retention) - 240.6GB offsite,1,79.00
+101133382,AXIS/GFA Architecture + Design,,ARCSOURCEBDR519,e0d55ec19f90,S3E12000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR519 with serial e0d55ec19f90 (1 Year Retention) - 5.99TB offsite,1,899.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR519 with serial e0d55ec19f90,1,-314.65
+101133382,David Baker Architects,,ARCSOURCEBDR515,e0d55ec19f18,S3E12000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR515 with serial e0d55ec19f18 (1 Year Retention) - 11.1TB offsite,1,899.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR515 with serial e0d55ec19f18,1,-314.65
+101133382,Siegel & Strain Architects,,ARCSOURCEBDR509,d05099d06575,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR509 with serial d05099d06575 (1 Year Retention) - 3.13TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR509 with serial d05099d06575,1,-157.15
+101133382,Gast Architects,,ARCSOURCEBDR511,d05099d06f8d,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR511 with serial d05099d06f8d (1 Year Retention) - 3.65TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR511 with serial d05099d06f8d,1,-157.15
+101133382,,,ARCSOURCEBDR516,e0d55e60f944,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR516 with serial e0d55e60f944 (1 Year Retention) - 3.46TB offsite,1,379.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR516 with serial e0d55e60f944,1,-132.65
+101133382,Harriman Kinyon Architects, Inc.,,ARCSOURCEBDR517,d05099d06d7d,S3P4000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR517 with serial d05099d06d7d (1 Year Retention) - 2.19TB offsite,1,449.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR517 with serial d05099d06d7d,1,-157.15
+101133382,Swatt Miers Architects,,ARCSOURCEBDR508,d05099d06d95,S3P6000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR508 with serial d05099d06d95 (1 Year Retention) - 3.85TB offsite,1,649.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR508 with serial d05099d06d95,1,-227.15
+101133382,Energy Solutions,,ARCSOURCEBDR520,d05099d06b73,S3P6000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR520 with serial d05099d06b73 (1 Year Retention) - 3.36TB offsite,1,649.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR520 with serial d05099d06b73,1,-227.15
+101133382,FTF Engineering,,ARCSOURCEBDR523,d05099d07d1e,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR523 with serial d05099d07d1e - 1.7TB offsite,1,349.00
+101133382,Kessler + Kessler,,ARCSOURCEBDR524,d05099d07e4c,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR524 with serial d05099d07e4c - 561.42MB offsite,1,349.00
+101133382,Ana Williamson Architect,,ARCSOURCEBDR528,1c1b0dfd2dda,S3X4,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR528 with serial 1c1b0dfd2dda (1 Year Retention) - 0KB offsite,1,399.00
+101133382,FTF Engineering,,ARCSOURCEBDR526,78f29e915237,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR526 with serial 78f29e915237 for 1 agents (1 Year Retention) - 419.16GB offsite,1,79.00
+101133382,International Child Resource Institute,,ARCSOURCEBDR525,78f29e916b5a,L3A2000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR525 with serial 78f29e916b5a for 1 agents (1 Year Retention) - 108.68GB offsite,1,79.00
+101133382,Loisos & Ubbelohde,,ARCSOURCEBDR529,e0d55eef4b5b,S3E12000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR529 with serial e0d55eef4b5b Prorated for 27 days (Infinite Cloud) - 0KB offsite,1,899.10
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR529 with serial e0d55eef4b5b,1,-314.69
+101133382,Turnbull Griffin Haesloop,,ARCSOURCEBDR527,d05099d174ba,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR527 with serial d05099d174ba (Infinite Cloud) - 1.8TB offsite,1,459.00
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR527 with serial d05099d174ba,1,-160.65
+101133382,Paulett Taggart Architects Inc,,ARCSOURCEBDR530,d05099d17364,S3B3000,2019-04-01 00:49:09,Month of  Datto Cloud Service for device ARCSOURCEBDR530 with serial d05099d17364 Prorated for 27 days (Infinite Cloud) - 0KB offsite,1,413.10
+101133382,,,,,,2019-04-01 00:49:09,35% Service Discount for device ARCSOURCEBDR530 with serial d05099d17364,1,-144.59

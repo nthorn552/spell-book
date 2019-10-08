@@ -1,0 +1,3 @@
+Invoice Number,Date,End User,Prepay vs NonPrepay,Product Group,Item,Mac Address,Host Name,Client Name,Start Date,End Date,Subscription End Date,Initial Term,PO Number,Rate,Quantity,Discount,New Charge,Sales Tax,Credit Applied,Amount Due
+Invoice261014,08/01/2019,Fernau & Hartman Architects,nonprepay,BCDR,Time-Based Retention (1yr),D05099D0C542,ARCSOURCEBDR531,N/A,07/02/2019,07/31/2019,07/31/2022,3 Year Commitment,Paper check not ACH,449.00,1,20.00%,347.61,.00,0.00,706.81
+Invoice261014,08/01/2019,Fernau & Hartman Architects,nonprepay,BCDR,Time-Based Retention (1yr),D05099D0C542,ARCSOURCEBDR531,N/A,08/01/2019,08/31/2019,07/31/2022,3 Year Commitment,Paper check not ACH,449.00,1,20.00%,359.20,.00,,
