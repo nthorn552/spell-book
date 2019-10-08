@@ -47,20 +47,6 @@ catch {
     Write-Host "Failed to set user password"
 }
 
-if ($shouldLockAccount) {
-    try {
-        Write-Host "Locking user account"
-        $TargetUser | Set-AzureADUser -AccountEnabled $false
-        Write-Host "Account lock successful"
-    }
-    catch {
-        Write-Host "Unable to disable account"
-    }
-}
-else {
-    Write-Host "Not locking user account"    
-}
-
 $TargetUser = Get-AzureADUser -ObjectId $targetUsername
 Write-Host $targetUsername "("$TargetUser.DisplayName") account is currently" $(If ($TargetUser.AccountEnabled -eq $false) { "blocked" } Else { "active" }) 
 Write-Host " --- O365-User-Departure-Procedure complete --- "

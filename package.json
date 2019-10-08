@@ -18,6 +18,7 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "googleapis": "^39.2.0",
     "mongoose": "^5.6.4",
     "ncp": "^2.0.0",
     "node-powershell": "^4.0.0",
